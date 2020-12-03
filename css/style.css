@@ -219,10 +219,68 @@ article button {
   margin: 0;
   padding: 0;
 }
-footer {
+
+.discount {
+  width: 80%;
+  background: #f3f4f6;
+  height: 300px;
+  margin: 0 10%;
+  line-height: 2;
+  padding: 10px 10%;
+  text-transform: uppercase;
+}
+
+.discount * {
+  width: 50%;
+}
+
+.discount h1 span {
+  font-size: 3rem;
+}
+
+.discount button {
+  width: 30%;
+  text-transform: uppercase;
+  height: 40px;
+  background: black;
+  color: white;
+}
+
+.lookbook {
+  width: 100%;
+  text-transform: uppercase;
+  height: 1000px;
+  padding: 0 10%;
+  text-align: center;
+  padding-top: 50px;
+}
+.lookbook h2 {
+  padding-bottom: 50px;
+}
+
+.images {
+  width: 100%;
+  height: 700px;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+  column-gap: 1em;
+}
+
+.images * {
+  border: thin solid black;
+  width: 100%;
+  height: 200px;
+  margin: 10px 1%;
+  display: inline-block;
 
 }
 
+.images img:nth-child(3n), .images img:nth-child(2) {
+  height: 400px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
