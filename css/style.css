@@ -30,9 +30,195 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  width: 100%;
+  height: 75px;
+  margin: 0;
+  padding: 0;
 }
 
+nav {
+  margin: 0;
+  padding: 20px 1%;
+  width: 100%;
+  height: 60px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  width: 70%;
+}
+
+nav * {
+  float: left;
+  text-transform: uppercase;
+}
+
+nav img {
+  width: 16%;
+}
+
+nav > a {
+  width: 14%;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 5%;
+}
+nav ul img {
+  height: 5px;
+  width: 5px;
+  font-size: .5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  height: 900px;
+  background-image: url("/images/salon-main-img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 10%;
+  color: white;
+}
+
+main h1 {
+  font-size: 5rem;
+  width: 50%;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+main h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: .9rem;
+  margin: 20px 0;
+}
+main button {
+  height: 40px;
+  width: 15%;
+  color: white;
+  background: black;
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+
+.coupon {
+  margin-top: 50px;
+  height: 250px;
+  width: 25%;
+  background: black;
+  padding: 2%;
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+
+.coupon button {
+  background: white;
+  color: black;
+  width: 80%;
+}
+
+.coupon p {
+  line-height: 2;
+}
+.coupon span {
+  font-size: 2rem;
+}
+
+.beauticians {
+  width: 100%;
+  height: 300px;
+  padding: 25px 10%;
+}
+
+.beauticians section {
+  width: 33%;
+  height: 200px;
+  float: left;
+  padding: 0 5%;
+}
+
+article {
+  height: 450px;
+  width: 100%;
+  background: #f3f4f6;
+  padding: 50px 10%;
+}
+
+article section {
+  width: 40%;
+  float: left;
+  margin-right: 10%;
+}
+article img {
+  float: left;
+  width: 40%;
+  height: 250px;
+  border: thin solid black;
+}
+article h2 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+article p {
+  line-height: 1.5;
+}
+article button {
+  width: 45%;
+  height: 40px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.stylists {
+  height: 400px;
+  width: 100%;
+  padding: 5% 10% 1% 10%;
+}
+
+.stylists section {
+  float: left;
+  width: 30%;
+  height: 300px;
+  margin: 1%;
+}
+
+.stylists section img {
+  height: 250px;
+  width: 100%;
+  background: #f3f4f6;
+}
+.stylists section section {
+  height: 50px;
+  width: 80%;
+  background: black;
+  color: white;
+  margin-left: 10%;
+  margin-top: -30px;
+  z-index: 1000;
+  position: relative;
+  text-align: center;
+  font-weight: normal;
+}
+
+.stylists section section * {
+  margin: 0;
+  padding: 0;
+}
 footer {
 
 }
